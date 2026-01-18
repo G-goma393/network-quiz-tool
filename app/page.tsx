@@ -166,9 +166,9 @@ export default function QuizPage() {
     return (
       <main className="max-w-md mx-auto p-8 text-center min-h-screen flex flex-col justify-center">
         <h1 className="text-3xl font-bold mb-8 text-slate-800">
-          ネットワーク概論
+          SOKUSEKI
           <br />
-          特訓ドリル
+          ITパスポート問題集 w/. tuis
         </h1>
         <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 mb-6 text-left space-y-4">
           <h2 className="font-bold text-slate-500 mb-2 border-b pb-2">
