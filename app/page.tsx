@@ -9,6 +9,8 @@ import week1 from "../data/week1.json";
 import week2 from "../data/week2.json";
 import week3 from "../data/week3.json";
 import week4 from "../data/week4.json";
+import week5 from "../data/week5.json";
+import week6 from "../data/week6.json";
 
 // 型定義
 type Question = {
@@ -28,6 +30,8 @@ const MASTER_DATA: Question[] = [
   ...(week2 as Question[]),
   ...(week3 as Question[]),
   ...(week4 as Question[]),
+  ...(week5 as Question[]),
+  ...(week6 as Question[]),
 ];
 
 // 3. シャッフル関数（フィッシャー・イェーツ法）
